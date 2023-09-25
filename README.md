@@ -3,7 +3,10 @@ https://nomadcoders.co/ - Developing Chrome App with Vanilla JS
 
 Vanilla JS로 크롬 웹 애플리케이션 만들기
 
+
 Nomad Coders (https://nomadcoders.co) 강의를 듣고 개발한 웹페이지.
+[강의 URL] https://nomadcoders.co/javascript-for-beginners
+
 
 - API KEY가 외부에 노출되지 않도록 주의해 주세요.
 
