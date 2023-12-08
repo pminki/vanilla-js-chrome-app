@@ -1,7 +1,7 @@
 
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
-const API_KEY = config.apiKey;
+const API_KEY = `${config.apiKey}`;
 
 function onGeoSuccess(position) {
   const lat = position.coords.latitude;
@@ -11,7 +11,6 @@ function onGeoSuccess(position) {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      city.innterText = data.name;
       weather.innerText = `${data.name} : ${data.weather[0].main} / ${data.main.temp}`;
     })
     .catch(() => {
