@@ -39,3 +39,6 @@ public
 *.sublime-project
 *.sublime-workspace
 sftp-config.json
+
+# API Key
+api_key.js
